@@ -31,6 +31,12 @@ namespace WindowsFormsApp1
             InhabitantCounter.DecimalPlaces = 0;
             EnvironmentListBox.DisplayMember = "Test";
             EnvironmentListBox.ValueMember = "TE";
+            IDTextBox.ReadOnly = true;
+            CleanTimeTextBox.ReadOnly = true;
+            FeedTimeTextBox.ReadOnly = true;
+            InhabitantTypeTextBox.ReadOnly = true;
+            InhabitantCountTextBox.ReadOnly = true;
+            WaterPHTextBox.ReadOnly = true;
         }
 
         public void toggleNumericUpDown1()
